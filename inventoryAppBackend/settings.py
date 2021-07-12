@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'inventoryAppBackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'eventDetails',
+        'NAME': 'eventdetails',
         'USER': 'soham',
         'PASSWORD': 'sohamRoy',
         'HOST': 'localhost',
