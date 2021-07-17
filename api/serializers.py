@@ -14,3 +14,15 @@ class EventSerializer(serializers.ModelSerializer):
             'contact', 
             'postCreationTime'
         ]
+
+class InventorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Event
+        fields = [
+            'id', 
+            'inventoryName', 
+            'ownerClub', 
+            'available', 
+            'quantityTotal',
+            'lastUpdated'
+        ]        
